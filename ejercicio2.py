@@ -5,7 +5,7 @@ calculadora = "No hay datos"
 
 def pedir_num():
     try:
-        num1 =float(input("Numero:"))
+        num1 =float(input("Introduce un numero:"))
 
         return num1
 
