@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="report_calculadora" model="ir.actions.report">
+        <field name="name">Calculadora PDF</field>
+        <field name="model">calculadora.modulo</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">calculadora.operacion_report</field>
+        <field name="report_file">calculadora.operacion_report</field>
+        <field name="binding_model_id" ref="model_calculadora_modulo"/>
+        <field name="binding_type">report</field>
+
+    </record>
+</odoo>
